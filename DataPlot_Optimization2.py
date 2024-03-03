@@ -33,6 +33,11 @@ plt.plot(voltage_C, power_density_C, label="形状最適化後", color="r")
 plt.xlabel("印可電圧 [V]", fontsize = 14)
 plt.ylabel("電力密度 [uW/cm2]", fontsize = 14)
 plt.title("印可電圧と電力密度の関係", fontsize = 18)
+
+# 軸の数値のフォントサイズを設定
+plt.tick_params(axis='x', labelsize=14)
+plt.tick_params(axis='y', labelsize=14)
+
 plt.legend(fontsize = 14)
 plt.grid(True)
 plt.show()
