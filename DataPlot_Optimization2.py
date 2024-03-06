@@ -38,6 +38,9 @@ plt.title("印可電圧と電力密度の関係", fontsize = 18)
 plt.tick_params(axis='x', labelsize=14)
 plt.tick_params(axis='y', labelsize=14)
 
+#横軸表示範囲
+plt.xlim(0, 0.65)
+
 plt.legend(fontsize = 14)
 plt.grid(True)
 plt.show()

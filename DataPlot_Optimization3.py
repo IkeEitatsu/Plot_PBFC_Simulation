@@ -48,9 +48,12 @@ lines, labels = ax1.get_legend_handles_labels()
 lines2, labels2 = ax2.get_legend_handles_labels()
 plt.legend(lines + lines2, labels + labels2, fontsize = 12)
 
+#軸の数値のフォントサイズ
+ax1.tick_params(axis='both', labelsize=12)
+ax2.tick_params(axis='y', labelsize=12)
+
 #横軸表示範囲
 plt.xlim(0, 0.65)
-
 plt.grid(True)
 plt.show()
 
