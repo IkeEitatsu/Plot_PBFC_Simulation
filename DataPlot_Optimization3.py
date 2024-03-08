@@ -52,12 +52,10 @@ plt.legend(lines + lines2, labels + labels2, fontsize = 12)
 ax1.tick_params(axis='both', labelsize=12)
 ax2.tick_params(axis='y', labelsize=12)
 
+# 縦線のグリッドを追加
+ax1.grid(True, which='both', axis='x')
+
 #横軸表示範囲
 plt.xlim(0, 0.65)
 plt.grid(True)
 plt.show()
-
-#df確認
-print(voltage_A, power_density_A, current_density_A)
-print(voltage_B, power_density_B, current_density_B)
-print(voltage_C, power_density_C, current_density_C)
