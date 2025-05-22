@@ -32,10 +32,10 @@ plt.show()
 
 #2Dカラーマップ
 plt.scatter(Phi, F, c=Mpd, cmap='viridis')
-plt.xlabel('Average Electric Field Norm [V/m]')
-plt.ylabel('Range of Electric Field Norm [V/m]')
+plt.xlabel('Average Electric Field Norm [V/m]', fontsize = 12)
+plt.ylabel('Range of Electric Field Norm [V/m]', fontsize = 12)
 plt.colorbar(label='Maximum Power Density [uW/cm2]')
-plt.title('Relationship between Average Electric Field Norm, Range of Electric Field Norm and Maximum Power Density')
+plt.title('Relationship between Average Electric Field Norm, Range of Electric Field Norm and Maximum Power Density', fontsize = 18)
 plt.show()
 
 #2Dヒートマップ
