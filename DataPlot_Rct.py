@@ -32,8 +32,8 @@ plt.show()
 #2Dカラーマップ
 plt.scatter(Phi, F, c=Mpd, cmap='viridis')
 plt.xlabel('Average Rct [Ω m2]')
-plt.ylabel('Maximum Power Density')
-plt.colorbar(label='Average Rct [Ω m2]')
+plt.ylabel('Maximum Power Density [uW/cm2]')
+plt.colorbar(label='Maximum Power Density [uW/cm2]')
 plt.title('Relationship between Rct and Maximum Power Density')
 plt.show()
 
