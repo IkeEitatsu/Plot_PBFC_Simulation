@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 #エクセルファイルのパス
-excel_file_path = "C:\\Users\\eitat\\OneDrive\\ドキュメント\\取り込み用_活性化損失.xlsx"
+excel_file_path = "C:\\Users\\eitat\\OneDrive\\ドキュメント\\取り込み用_活性化損失アノード.xlsx"
 
 # エクセルファイルをデータフレームに読み込む
 df = pd.read_excel(excel_file_path)
@@ -34,8 +34,8 @@ plt.show()
 plt.scatter(Phi, F, c=Mpd, cmap='viridis')
 plt.xlabel('Phi [degree]')
 plt.ylabel('F')
-plt.colorbar(label='Activation Loss (of Cathode) [W]')
-plt.title('Relationship between Phi, F and Activation Loss (of Cathode)')
+plt.colorbar(label='Activation Loss (of Anode) [W]')
+plt.title('Relationship between Phi, F and Activation Loss (of Anode)')
 plt.show()
 
 #2Dヒートマップ
